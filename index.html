@@ -197,7 +197,7 @@ section{padding:130px 0;position:relative;z-index:1;}
 .tl-body{font-size:.87rem;color:var(--muted);line-height:1.7;}
 @media(max-width:600px){.tl-item{grid-template-columns:1fr;gap:4px;}}
 
-.about-right{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line);}
+.about-right{display:flex;flex-direction:column;gap:20px;}
 .acard{background:var(--surface);padding:26px;transition:background .25s;}
 .acard:hover{background:var(--bg);}
 .acard-head{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
@@ -206,7 +206,7 @@ section{padding:130px 0;position:relative;z-index:1;}
 .acard p{font-size:.85rem;color:var(--muted);line-height:1.7;}
 
 /* ===================== SKILLS ===================== */
-.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;background:var(--line);border:1px solid var(--line);}
 .sk-card{background:var(--surface);padding:30px;}
 .sk-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--line);}
 .sk-head h3{font-family:var(--f-display);font-size:1rem;font-weight:600;}
@@ -222,7 +222,7 @@ section{padding:130px 0;position:relative;z-index:1;}
 @media(max-width:900px){.skills-grid{grid-template-columns:1fr;}}
 
 /* ===================== SERVICES ===================== */
-.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+.services-grid{display: grid;grid-template-columns: repeat(2, minmax(320px, 420px));justify-content: center;gap: 30px;}
 .svc-card{background:var(--surface);padding:30px 24px;transition:background .25s;}
 .svc-card:hover{background:var(--bg-panel);}
 .svc-ico{width:38px;height:38px;display:flex;align-items:center;justify-content:center;font-size:1rem;color:var(--accent);margin-bottom:20px;}
@@ -371,7 +371,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#graphics">Designs</a></li>
       <li><a href="#contact">Contact</a></li>
       <li>
         <button class="theme-toggle" id="themeToggleDesktop" aria-label="Toggle dark/light mode">
@@ -395,7 +394,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
   <a href="#about" class="mm-link">About</a>
   <a href="#skills" class="mm-link">Skills</a>
   <a href="#projects" class="mm-link">Projects</a>
-  <a href="#graphics" class="mm-link">Designs</a>
   <a href="#contact" class="mm-link">Contact</a>
   <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle dark/light mode">
     <i class="fas fa-moon icon-moon"></i>
@@ -416,10 +414,10 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
         <div class="badge"><span class="dot"></span>Available for Freelance & Full-Time Work</div>
         <h1 class="hero-name">
           <span class="line1">Murtaza Ahmad</span>
-          <span class="role">Front-End React Developer</span>
+          <span class="role">Full-Stack Developer</span>
         </h1>
         <p class="hero-desc">
-          Front-end developer from Pakistan building responsive, modern web applications with
+          Full-stack developer from Pakistan building responsive, modern web applications with
           <strong> React.js, Python, Flask, HTML, MySQL, MERN Stack</strong>. I pair a developer's precision
           with a designer's eye — turning ideas into clean, high-performance digital experiences.
         </p>
@@ -431,7 +429,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
         </div>
         <div class="hero-social">
           <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="linkedin.com/in/murtaza-ahmad-a12ab432a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shmurtazaahmad334@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
@@ -461,33 +459,27 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
         <div class="about-text">
           <p>I'm <strong>Murtaza Ahmad</strong>, an undergraduate student pursuing a <strong>Bachelor's in Digital Systems & Web Technology (DSWT)</strong> at Hamdard University Islamabad.</p>
           <p>I specialize in building responsive, modern web applications using <strong>React.js, JavaScript, HTML, CSS, Python, Flask and MySQL</strong> — clean interfaces, real problems solved.</p>
-          <p>Alongside development, I have practical experience in <strong>Graphic Design</strong>, completing internships focused on web applications, management systems, UI, and branding.</p>
         </div>
 
         <div class="tl">
           <div class="tl-item">
-            <div class="tl-yr">2023 — Present</div>
-            <div><div class="tl-ttl">B.S. Digital Systems & Web Technology</div><div class="tl-org">Hamdard University Islamabad</div><div class="tl-body">Studying web technologies, database systems, software engineering, networking and modern application development.</div></div>
+            <div class="tl-yr">2023 — 2027</div>
+            <div><div class="tl-ttl">B.S. Digital Systems & Web Technology</div><div class="tl-org">Hamdard University Islamabad</div><div class="tl-body">Studying web technologies, database systems, software engineering and modern application development.</div></div>
           </div>
           <div class="tl-item">
-            <div class="tl-yr">Government Internship</div>
-            <div><div class="tl-ttl">Computer Science Intern</div><div class="tl-org">National Highway Authority (NHA)</div><div class="tl-body">Worked with the MIS team; developed a Monthly & Yearly Reports Management System and prepared system documentation.</div></div>
+            <div class="tl-yr">Private Office Internship</div>
+            <div><div class="tl-ttl">Front-End & Back-End Development Intern</div><div class="tl-org">ZSquare Solutions Islamabad</div><div class="tl-body">Built web applications using HTML, CSS, JavaScript, Python (Flask) and GitHub.</div></div>
           </div>
           <div class="tl-item">
-            <div class="tl-yr">Creative Internship</div>
-            <div><div class="tl-ttl">Graphic Design Intern</div><div class="tl-org">DigiDive Institute</div><div class="tl-body">Designed logos, posters and branding materials, sharpening visual communication and creative design skills.</div></div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-yr">Remote Internship</div>
-            <div><div class="tl-ttl">Front-End React Developer Intern</div><div class="tl-org">Teyzix Core</div><div class="tl-body">Built responsive web applications using React.js, Tailwind CSS, JavaScript, Vite, Framer Motion and GitHub.</div></div>
+            <div class="tl-yr">Government Office Internship</div>
+            <div><div class="tl-ttl">Front-End & Back-End Development Intern</div><div class="tl-org">National Highway Authority (NHA) Islamabad</div><div class="tl-body">Worked with the MIS team developed a Monthly & Yearly Reports Management System and prepared system documentation.</div></div>
           </div>
         </div>
       </div>
 
       <div class="about-right reveal" data-delay="1">
-        <div class="acard"><div class="acard-head"><div class="acard-ico"><i class="fas fa-code"></i></div><h4>Front-End Development</h4></div><p>Building responsive, modern and interactive websites using React.js, HTML5, CSS3, JavaScript and Tailwind CSS.</p></div>
+        <div class="acard"><div class="acard-head"><div class="acard-ico"><i class="fas fa-code"></i></div><h4>Full-Stack Development</h4></div><p>Building responsive, modern and interactive websites using HTML, CSS, JavaScript, React.js and MERN Stack.</p></div>
         <div class="acard"><div class="acard-head"><div class="acard-ico"><i class="fas fa-server"></i></div><h4>Python & Flask</h4></div><p>Developing backend applications, REST APIs and database-driven systems using Python, Flask and MySQL.</p></div>
-        <div class="acard"><div class="acard-head"><div class="acard-ico"><i class="fas fa-palette"></i></div><h4>Graphic Design</h4></div><p>Creating professional logos, posters, branding materials and social media designs using Adobe Illustrator and Canva.</p></div>
         <div class="acard"><div class="acard-head"><div class="acard-ico"><i class="fas fa-laptop-code"></i></div><h4>Current Focus</h4></div><p>Expanding expertise in React.js, modern UI development, frontend performance and full-stack applications.</p></div>
       </div>
     </div>
@@ -504,35 +496,34 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
 
     <div class="skills-grid reveal">
       <div class="sk-card">
-        <div class="sk-head"><h3>Frontend & Backend</h3><span class="idx">01</span></div>
-        <div class="sk-tags"><span class="tag-chip">React.js</span><span class="tag-chip">HTML5</span><span class="tag-chip">CSS3</span><span class="tag-chip">JavaScript</span><span class="tag-chip">Tailwind</span><span class="tag-chip">Python</span><span class="tag-chip">Flask</span><span class="tag-chip">MySQL</span></div>
+        <div class="sk-head"><h3>FrontEnd</h3><span class="idx">01</span></div>
+        <div class="sk-tags"><span class="tag-chip">React.js</span><span class="tag-chip">HTML</span><span class="tag-chip">CSS</span><span class="tag-chip">JavaScript</span></div>
         <div class="sk-bars">
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>React.js</span><span>90%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:90%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>JavaScript</span><span>88%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:88%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Python / Flask</span><span>85%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:85%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>MySQL</span><span>82%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:82%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>React.js</span><span>80%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:80%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>JavaScript</span><span>50%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:50%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>HTML</span><span>95%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:95%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>CSS</span><span>75%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:75%"></div></div></div>
         </div>
       </div>
 
       <div class="sk-card">
-        <div class="sk-head"><h3>Graphic Design</h3><span class="idx">02</span></div>
-        <div class="sk-tags"><span class="tag-chip">Illustrator</span><span class="tag-chip">Canva</span><span class="tag-chip">Logo Design</span><span class="tag-chip">Posters</span><span class="tag-chip">Branding</span></div>
+        <div class="sk-head"><h3>BackEnd</h3><span class="idx">02</span></div>
+        <div class="sk-tags"><span class="tag-chip">PHP</span><span class="tag-chip">Flask</span><span class="tag-chip">MySQL</span><span class="tag-chip">MongoDB</span></div>
         <div class="sk-bars">
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Adobe Illustrator</span><span>85%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:85%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Canva</span><span>95%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:95%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Branding</span><span>85%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:85%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Creative Design</span><span>90%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:90%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>PHP</span><span>65%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:65%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>Flask</span><span>85%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:85%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>MySQL</span><span>85%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:85%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>MongoDB</span><span>75%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:75%"></div></div></div>
         </div>
       </div>
 
       <div class="sk-card">
         <div class="sk-head"><h3>Tools & Technologies</h3><span class="idx">03</span></div>
-        <div class="sk-tags"><span class="tag-chip">Git</span><span class="tag-chip">GitHub</span><span class="tag-chip">VS Code</span><span class="tag-chip">Vite</span><span class="tag-chip">Framer Motion</span><span class="tag-chip">Power BI</span></div>
+        <div class="sk-tags"><span class="tag-chip">Git</span><span class="tag-chip">GitHub</span><span class="tag-chip">VS Code</span><span class="tag-chip">Framer Motion</span><span class="tag-chip">Power BI</span></div>
         <div class="sk-bars">
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Git & GitHub</span><span>90%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:90%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Vite</span><span>88%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:88%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Framer Motion</span><span>82%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:82%"></div></div></div>
-          <div class="sk-bar-row"><div class="sk-bar-label"><span>Power BI</span><span>80%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:80%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>Git & GitHub</span><span>75%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:75%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>Framer Motion</span><span>75%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:75%"></div></div></div>
+          <div class="sk-bar-row"><div class="sk-bar-label"><span>Power BI</span><span>75%</span></div><div class="sk-bar-track"><div class="sk-bar-fill" style="width:75%"></div></div></div>
         </div>
       </div>
     </div>
@@ -548,10 +539,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
     </div>
 
     <div class="services-grid reveal">
-      <div class="svc-card"><div class="svc-ico"><i class="fas fa-laptop-code"></i></div><h3>Front-End Development</h3><p>Responsive, fast, modern websites with clean UI and smooth UX.</p><ul class="svc-list"><li>React.js Applications</li><li>Responsive Web Design</li><li>Tailwind CSS Interfaces</li><li>Landing Pages & Portfolios</li></ul></div>
-      <div class="svc-card"><div class="svc-ico"><i class="fas fa-layer-group"></i></div><h3>Python & Flask</h3><p>Secure, scalable applications for business management and automation.</p><ul class="svc-list"><li>Flask Web Applications</li><li>Admin Dashboards</li><li>MySQL Integration</li><li>REST API Integration</li></ul></div>
-      <div class="svc-card"><div class="svc-ico"><i class="fas fa-palette"></i></div><h3>Graphic Design & Branding</h3><p>Professional branding materials with a strong visual identity.</p><ul class="svc-list"><li>Logo Design</li><li>Social Media Posts</li><li>Business Cards</li><li>Posters & Branding</li></ul></div>
-      <div class="svc-card"><div class="svc-ico"><i class="fas fa-robot"></i></div><h3>AI & Custom Solutions</h3><p>Custom web solutions and automation tools tailored to requirements.</p><ul class="svc-list"><li>AI Chatbots</li><li>Portfolio Websites</li><li>Business Management Systems</li><li>Custom Web Solutions</li></ul></div>
+      <div class="svc-card"><div class="svc-ico"><i class="fas fa-laptop-code"></i></div><h3>Front-End Development</h3><p>Responsive, fast, modern websites with clean UI and smooth UX.</p><ul class="svc-list"><li>React.js Applications</li><li>Responsive Web Design</li><li>CSS Interfaces</li><li>Landing Pages & Portfolios</li></ul></div>
+      <div class="svc-card"><div class="svc-ico"><i class="fas fa-server"></i></div><h3>Back-End Development</h3><p>Building secure, scalable, and efficient server-side applications.</p><ul class="svc-list"><li>PHP Development</li><li>Flask Applications</li><li>MySQL & MongoDB</li><li>REST API Development</li></ul></div>
     </div>
   </div>
 </section>
@@ -646,7 +635,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
       </div>
       <div class="social-row">
         <a href="https://github.com/" target="_blank" class="soc-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="#" target="_blank" class="soc-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="linkedin.com/in/murtaza-ahmad-a12ab432a" target="_blank" class="soc-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shmurtazaahmad334@gmail.com" class="soc-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
@@ -662,7 +651,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;}
         <p>Full-Stack Developer & Graphic Designer building fast, modern digital experiences from Rawalpindi, Islamabad.</p>
         <div class="foot-soc">
           <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="linkedin.com/in/murtaza-ahmad-a12ab432a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shmurtazaahmad334@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
