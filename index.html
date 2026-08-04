@@ -687,6 +687,18 @@ ham.addEventListener('click',()=>{
 document.querySelectorAll('.mm-link,.mobile-menu .btn').forEach(a=>a.addEventListener('click',()=>{
   ham.classList.remove('open');mm.classList.remove('open');document.body.style.overflow='';
 }));
+
+/* ===== REVEAL (light, one-shot) ===== */
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } });
+},{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+const skIo=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); skIo.unobserve(e.target); } });
+},{threshold:0.3});
+document.querySelectorAll('.sk-card').forEach(c=>skIo.observe(c));
+
 </script>
 </body>
 </html>
